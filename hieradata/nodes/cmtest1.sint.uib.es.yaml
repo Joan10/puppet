@@ -1,7 +1,6 @@
 # /etc/puppetlabs/code/production/hieradata/common.yaml
 # ---
-profile::parameter_one: "This node can use cmtest1 configuration"
-
 ---
+profile::parameter_one: "This node can use cmtest1 configuration"
 classes:
    - role::cmtest1
