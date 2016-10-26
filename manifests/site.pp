@@ -1,7 +1,7 @@
-node cmtest1.sint.uib.es {
-	include role::webserver
-}
-
+#node cmtest1.sint.uib.es {
+#	include role::webserver
+#}
+hiera_include('classes')
 #node default {
 
 
